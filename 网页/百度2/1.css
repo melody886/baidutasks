@@ -1,0 +1,222 @@
+body{
+	 font-family: 
+	 "黑体";
+	 background:#dedede;
+	 padding:0;
+	 margin:0;
+	 width:100%;}
+nav{
+	background:#333;
+	height:60px;
+}
+nav a{
+	font-size:12px;
+	color:#fff;
+	width:80px;
+	float:right;
+	text-decoration: none;
+}
+nav li:first-child a{color:#ccc;}
+nav ul{
+	float:right;
+	margin:0 auto;
+	margin-top:14px;
+	list-style:disc;
+	color:white;}
+nav ul li{
+	display:inline;
+	float:right;
+	width:80px;
+	vertical-align:middle;
+	height:40px;
+	line-height:40px;
+	color:white;}
+
+label input select{
+   font-size:12px;
+   }
+select{
+   color:#3355d0;}
+textarea{
+   margin-top:-1%;
+   margin-left:36%;
+   }
+.list{
+	display:inline;
+	margin-right:20px;
+	width:320px;
+	}
+section{
+    border:1px solid #bfbfbf;
+	background:#fff;
+	margin:20px;
+	padding: 0 20px;
+	box-shadow:3px 3px 2px #a1a1a1;
+    max-width:66%;
+	margin-right:400px;
+	overflow:hidden;
+	}
+aside{
+	border:1px solid #bfbfbf;
+	background:#fff;
+    padding: 20px;
+	box-shadow:3px 3px 2px #a1a1a1;
+	float:right;
+	margin:20px 20px 0 20px;
+	height:100%;
+	width:320px; 
+	position:relative;
+}
+aside h2{
+	border-left:3px solid #cacaca;
+	font-size:16px;
+	line-height:38px;
+	vertical-align:middle;
+	position:relative;
+	top:-10px;
+}
+aside form {
+	line-height: 1.5;
+	padding-left: 15px;
+	color: #000;
+	font-size: 12px;
+	margin-left:-48px;
+}
+aside > form > div:nth-child(1) input,
+aside > form > div:nth-child(2) input,
+aside > form > div:nth-child(3) input{
+	font-size:8px;
+}
+aside >form > div {
+	margin: 10px 20px;
+}
+aside > form > span {
+	margin:20px 20px  20px 146px;
+	font-size: 12px;
+	color: #ccc;
+}
+aside > form > div > label {
+	display: inline-block;
+	margin-right: 1%;
+	width:36%;
+	text-align: right;
+	vertical-align: top;
+}
+aside > form > div > textarea {
+	width: 50%;
+	height: 200px;
+	margin-left:0.1%;
+	margin-top:8px;
+}
+nav img{
+	margin-left:40px;
+	vertical-align:middle;
+	margin-top:8px;
+	}
+.img3{
+	margin:20px 0px 5px;
+	width:300px;
+	height:220px;	
+}
+section span{
+	text-indent:2em;
+	float:right;
+    line-height:24px;
+	margin-top:0px;/*(为何此处需要设一下0px)*/
+	margin-bottom:20px;
+}
+section h2{
+	font-size:22px;
+	margin-bottom:20px;
+	margin-top:40px;}
+section h4{
+	color:#6b6c5e;
+	font-size:16px;
+	margin-bottom:20px;}
+section h6{
+	font-size:12px;
+	color:#79787d;}
+.ul2{
+	list-style:none;
+	width:120px;
+	margin-top:-10px;}
+section ul{
+	list-style-type:none;
+	padding-bottom:20px;
+	line-height:24px;
+	margin-left:-20px;
+	margin-top:-10px;
+	display:inline-block;/*display用inline和inline-block有什么区别*/
+	}
+figure div{
+	border:1px solid #ccc;
+    width:100px;
+	height:112px;
+	background-color:#fff;
+	padding:0 12px 12px 12px;
+	position:relative;
+	float:left;
+	margin:10px;}
+figure{
+	margin-bottom:20px;
+	height:300px;
+}
+figure p{
+	line-height:30px;
+	vertical-align:center;
+	text-align:center; 
+	font-size:12px;
+	margin:0;
+	padding:0;
+	}
+.img2{
+	width:100%;
+	height:100%;
+	display:inline;}
+section table{
+	padding-left:8px;
+	margin-bottom:20px;
+	border:1px solid #ccc;
+	height:25px;
+	width:98%;
+	font-size:12px;
+	margin-top:-16px;}
+table{border-collapse:collapse;}
+td{border:1px solid #ccc;
+	height:25px;
+	font-size:12px;
+	padding-left:8px;}
+section table th{
+	padding-left:8px;
+	background-color:#333;
+	color:#fff;
+	text-align:left;
+	border:1px solid #ccc;
+	height:25px;
+	font-size:12px;
+}
+section table th:nth-child(1),section table th:nth-child(2){
+	width:495px;
+	}
+section table th:nth-child(3){
+	width:207px;
+}
+section table tr:nth-child(6){background-color:#ccc;}
+footer{
+	height:70px;
+	background-color:#333;
+	text-align:center;
+}
+footer p{
+	color:#ffffff;
+	font-size:12px;
+	padding-top:20px;}
+.submit{
+	color:#fff;
+	width:1175px;
+	height:38px;
+	background-color:#3355d0;
+	border-radius:10px;
+	width:100%;
+	margin-bottom:0px;
+	font-weight:bold;}
